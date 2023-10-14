@@ -1,5 +1,6 @@
 package Manager;
 
+import Models.User;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 
@@ -12,18 +13,37 @@ public class HelperUser extends HelperBase
 
     }
 
+public void login(User user){
+        openLoginregistrationForm();
+     fillLoginregistrationForm(user);
+        submitLogin();
 
+}
 
     public void openLoginregistrationForm(){
 
         wd.findElement(By.xpath("//*[.='LOGIN']")).click();
     }
 
-    public void fillLoginregistrationForm(String email,String password){
+    //public void fillLoginregistrationForm_Model_user(User user){
 
-        type(By.xpath("//input[1]"),email);
-        type(By.xpath("//input[2]"),password);
+      //  type(By.xpath("//input[1]"), user.getEmail());
+        //type(By.xpath("//input[2]"),user.getPassword());
+    //}
+     public void fillLoginregistrationForm(String email, String password){
+
+        type(By.xpath("//input[1]"), email);
+        type((By.xpath("//input[2]")),password);
     }
+
+    public void fillLoginregistrationForm(User user){
+
+        type(By.xpath("//input[1]"), user.getEmail());
+        type((By.xpath("//input[2]")),user.getPassword());
+    }
+
+
+
 
     public void submitLogin(){
 
@@ -31,7 +51,8 @@ public class HelperUser extends HelperBase
 
     }
 
-    public void submitRegistration(){
+    public void submitRegistration()
+    {
         wd.findElement(By.xpath("//button[2]")).click();
 
     }
