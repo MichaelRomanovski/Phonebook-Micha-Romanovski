@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="tests.addNewContact" tests="3" skipped="0" failures="0" errors="0" timestamp="2023-10-20T00:07:08" hostname="DESKTOP-G6QMAM9" time="16.605">
+  <properties/>
+  <testcase name="possitiveAddnewContactUserDTO[0](Contact(name=Petr, lastName=Gavrilov, phone=1231231232, email=petr@gmail.com, address=Hezlas, description=asdasdasd))" classname="tests.addNewContact" time="3.283"/>
+  <testcase name="possitiveAddnewContactUserDTO[1](Contact(name=Petr, lastName=Gavrilov, phone=1231231232, email=oetr@gmail.com, address=Hezlas, description=asdasdasd))" classname="tests.addNewContact" time="2.513"/>
+  <testcase name="possitiveAddnewContactUserDTO[2](Contact(name=Petr, lastName=Gavrilov, phone=1231231232, email=letr@gmail.com, address=Hezlas, description=asdasdasd))" classname="tests.addNewContact" time="2.529"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[console.warn: LoginRecipes: "Falling back to a synchronous message for: https://telranedu.web.app."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://telranedu.web.app."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://telranedu.web.app."
+]]></system-err>
+</testsuite>

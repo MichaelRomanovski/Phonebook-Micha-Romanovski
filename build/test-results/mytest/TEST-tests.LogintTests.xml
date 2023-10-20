@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="tests.LogintTests" tests="7" skipped="0" failures="0" errors="0" timestamp="2023-10-20T00:07:25" hostname="DESKTOP-G6QMAM9" time="47.552">
+  <properties/>
+  <testcase name="WrongPassword_Login_Tests" classname="tests.LogintTests" time="10.268"/>
+  <testcase name="loginPositiveTest" classname="tests.LogintTests" time="7.473"/>
+  <testcase name="loginPositiveTestproperties" classname="tests.LogintTests" time="4.352"/>
+  <testcase name="loginPositiveUserDTO[0](User(email=michat@def.com, password=$Romanovski123454))" classname="tests.LogintTests" time="4.381"/>
+  <testcase name="loginPositiveUserDTO[1](User(email=michat@def.com, password=$Romanovski123454))" classname="tests.LogintTests" time="4.382"/>
+  <testcase name="loginPositiveUserDTO[2](User(email=michat@def.com, password=$Romanovski123454))" classname="tests.LogintTests" time="4.383"/>
+  <testcase name="login_Negative_Test_WrongEmail" classname="tests.LogintTests" time="12.313"/>
+  <system-out><![CDATA[Wrong email or password
+Wrong email or password
+Wrong email or password
+Wrong email or password
+Wrong email or password
+]]></system-out>
+  <system-err><![CDATA[console.warn: LoginRecipes: "Falling back to a synchronous message for: https://telranedu.web.app."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://telranedu.web.app."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://telranedu.web.app."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://telranedu.web.app."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://telranedu.web.app."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://telranedu.web.app."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://telranedu.web.app."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://telranedu.web.app."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://telranedu.web.app."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://telranedu.web.app."
+]]></system-err>
+</testsuite>
