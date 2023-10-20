@@ -18,6 +18,11 @@ public void login(User user){
      fillLoginregistrationForm(user);
         submitLogin();
 
+}public void login(String email,String password){
+        openLoginregistrationForm();
+     fillLoginregistrationForm(email,password);
+        submitLogin();
+
 }
 
     public void openLoginregistrationForm(){
@@ -64,7 +69,6 @@ public void login(User user){
     }
 
     public void logout(){
-        //  Sign out
         click(By.xpath("//*[.='Sign Out']"));
 
     }

@@ -22,7 +22,24 @@ public class LogintTests extends testBase {
         Assert.assertTrue(app.getUser().isElementPresent(
                 By.tagName("button")));
         app.getUser().logout();
+        app.getUser().pause(3000);
+//Assert.assertTrue(app.getUser().isElementPresent());
 
+    }
+    @Test(groups={"positive"})
+    public void loginPositiveTestproperties()
+    {
+
+        app.getUser().openLoginregistrationForm();
+        app.getUser().fillLoginregistrationForm(app.getEmail(),app.getPassword());
+        app.getUser().submitLogin();
+        app.getUser().pause(3000);
+
+        Assert.assertTrue(app.getUser().isElementPresent(
+                By.tagName("button")));
+        app.getUser().logout();
+        //app.getUser().pause(3000);
+//Assert.assertTrue(app.getUser().isElementPresent());
 
     }
 
@@ -34,7 +51,7 @@ public class LogintTests extends testBase {
 
         app.getUser().openLoginregistrationForm();
 
-        app.getUser().fillLoginregistrationForm(user.getEmail(),user.getPassword());
+        app.getUser().fillLoginregistrationForm(user);
 
         app.getUser().submitLogin();
 

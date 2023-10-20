@@ -1,0 +1,83 @@
+2023-10-16 19:34:47,911 INFO M.ApplicationManager [ApplicationManager.java:59] Test started on Firefox
+2023-10-16 19:34:48,770 INFO t.testBase [testBase.java:25] Test is started: possitiveAddnewContactUserDTO
+2023-10-16 19:34:48,772 INFO M.WdListener [WdListener.java:39] Start searching element by locator By.xpath: *[.='Sign Out']
+2023-10-16 19:34:51,803 INFO M.WdListener [WdListener.java:45]  Element by locator By.xpath: *[.='Sign Out']is found
+2023-10-16 19:34:51,804 INFO M.WdListener [WdListener.java:39] Start searching element by locator By.xpath: //*[.='LOGIN']
+2023-10-16 19:34:51,818 INFO M.WdListener [WdListener.java:45]  Element by locator By.xpath: //*[.='LOGIN']is found
+2023-10-16 19:34:52,067 INFO M.WdListener [WdListener.java:39] Start searching element by locator By.xpath: //input[1]
+2023-10-16 19:34:52,085 INFO M.WdListener [WdListener.java:45]  Element by locator By.xpath: //input[1]is found
+2023-10-16 19:34:52,371 INFO M.WdListener [WdListener.java:39] Start searching element by locator By.xpath: //input[2]
+2023-10-16 19:34:52,382 INFO M.WdListener [WdListener.java:45]  Element by locator By.xpath: //input[2]is found
+2023-10-16 19:34:52,663 INFO M.WdListener [WdListener.java:39] Start searching element by locator By.xpath: //button[1]
+2023-10-16 19:34:52,678 INFO M.WdListener [WdListener.java:45]  Element by locator By.xpath: //button[1]is found
+2023-10-16 19:34:52,912 INFO M.NGListener [NGListener.java:15] Start of the test>>possitiveAddnewContactUserDTO
+2023-10-16 19:34:52,913 INFO M.WdListener [WdListener.java:39] Start searching element by locator By.cssSelector: a[href='/add']
+2023-10-16 19:34:53,719 INFO M.WdListener [WdListener.java:45]  Element by locator By.cssSelector: a[href='/add']is found
+2023-10-16 19:34:53,956 INFO M.WdListener [WdListener.java:39] Start searching element by locator By.xpath: //*[@placeholder='Name']
+2023-10-16 19:34:53,976 INFO M.WdListener [WdListener.java:45]  Element by locator By.xpath: //*[@placeholder='Name']is found
+2023-10-16 19:34:54,249 INFO M.WdListener [WdListener.java:39] Start searching element by locator By.xpath: //*[@placeholder='Last Name']
+2023-10-16 19:34:54,257 INFO M.WdListener [WdListener.java:45]  Element by locator By.xpath: //*[@placeholder='Last Name']is found
+2023-10-16 19:34:54,532 INFO M.WdListener [WdListener.java:39] Start searching element by locator By.xpath: //*[@placeholder='Phone']
+2023-10-16 19:34:54,539 INFO M.WdListener [WdListener.java:45]  Element by locator By.xpath: //*[@placeholder='Phone']is found
+2023-10-16 19:34:54,818 INFO M.WdListener [WdListener.java:39] Start searching element by locator By.xpath: //*[@placeholder='email']
+2023-10-16 19:34:54,837 INFO M.WdListener [WdListener.java:45]  Element by locator By.xpath: //*[@placeholder='email']is found
+2023-10-16 19:34:55,116 INFO M.WdListener [WdListener.java:39] Start searching element by locator By.xpath: //*[@placeholder='Address']
+2023-10-16 19:34:55,135 INFO M.WdListener [WdListener.java:45]  Element by locator By.xpath: //*[@placeholder='Address']is found
+2023-10-16 19:34:55,411 INFO M.WdListener [WdListener.java:39] Start searching element by locator By.xpath: //*[@placeholder='description']
+2023-10-16 19:34:55,418 INFO M.WdListener [WdListener.java:45]  Element by locator By.xpath: //*[@placeholder='description']is found
+2023-10-16 19:34:55,696 INFO M.WdListener [WdListener.java:39] Start searching element by locator By.xpath: //b[.='Save']
+2023-10-16 19:34:55,700 INFO M.WdListener [WdListener.java:45]  Element by locator By.xpath: //b[.='Save']is found
+2023-10-16 19:34:55,935 INFO M.NGListener [NGListener.java:22] Success test>>possitiveAddnewContactUserDTO
+2023-10-16 19:34:55,935 INFO M.NGListener [NGListener.java:23] ================================================================
+2023-10-16 19:34:55,936 INFO t.testBase [testBase.java:31] test is finished possitiveAddnewContactUserDTO
+2023-10-16 19:34:55,936 INFO t.testBase [testBase.java:32] ============================================================================
+2023-10-16 19:34:55,937 INFO t.testBase [testBase.java:25] Test is started: possitiveAddnewContactUserDTO
+2023-10-16 19:34:55,937 INFO M.WdListener [WdListener.java:39] Start searching element by locator By.xpath: *[.='Sign Out']
+2023-10-16 19:34:58,966 INFO M.WdListener [WdListener.java:45]  Element by locator By.xpath: *[.='Sign Out']is found
+2023-10-16 19:34:58,966 INFO M.WdListener [WdListener.java:39] Start searching element by locator By.xpath: //*[.='LOGIN']
+2023-10-16 19:35:02,008 INFO M.WdListener [WdListener.java:23] Something went wrong
+2023-10-16 19:35:02,009 INFO M.WdListener [WdListener.java:24] Unable to locate element: //*[.='LOGIN']
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-G6QMAM9', ip: '10.0.0.2', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_333'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 118.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20230927232528, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 2740, moz:profile: C:\Users\ARTEMS~1\AppData\L..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 372ba6fe-e1c5-4e68-b878-4bb5e09c07a5
+*** Element info: {Using=xpath, value=//*[.='LOGIN']}
+2023-10-16 19:35:02,009 INFO M.WdListener [WdListener.java:25] org.openqa.selenium.NoSuchElementException: Unable to locate element: //*[.='LOGIN']
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-G6QMAM9', ip: '10.0.0.2', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_333'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 118.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20230927232528, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 2740, moz:profile: C:\Users\ARTEMS~1\AppData\L..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 372ba6fe-e1c5-4e68-b878-4bb5e09c07a5
+*** Element info: {Using=xpath, value=//*[.='LOGIN']}
+2023-10-16 19:35:02,244 INFO M.WdListener [WdListener.java:30] Here is the path to screenshot with error>src/test/screenshots/screenshot-820.png
+2023-10-16 19:35:02,246 INFO M.NGListener [NGListener.java:15] Start of the test>>possitiveAddnewContactUserDTO
+2023-10-16 19:35:02,248 INFO t.testBase [testBase.java:31] test is finished possitiveAddnewContactUserDTO
+2023-10-16 19:35:02,248 INFO t.testBase [testBase.java:32] ============================================================================
+2023-10-16 19:35:02,249 INFO t.testBase [testBase.java:25] Test is started: possitiveAddnewContactUserDTO
+2023-10-16 19:35:02,250 INFO M.WdListener [WdListener.java:39] Start searching element by locator By.xpath: *[.='Sign Out']
+2023-10-16 19:35:05,280 INFO M.WdListener [WdListener.java:45]  Element by locator By.xpath: *[.='Sign Out']is found
+2023-10-16 19:35:05,280 INFO M.WdListener [WdListener.java:39] Start searching element by locator By.xpath: //*[.='LOGIN']
+2023-10-16 19:35:08,311 INFO M.WdListener [WdListener.java:23] Something went wrong
+2023-10-16 19:35:08,312 INFO M.WdListener [WdListener.java:24] Unable to locate element: //*[.='LOGIN']
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-G6QMAM9', ip: '10.0.0.2', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_333'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 118.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20230927232528, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 2740, moz:profile: C:\Users\ARTEMS~1\AppData\L..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 372ba6fe-e1c5-4e68-b878-4bb5e09c07a5
+*** Element info: {Using=xpath, value=//*[.='LOGIN']}
+2023-10-16 19:35:08,312 INFO M.WdListener [WdListener.java:25] org.openqa.selenium.NoSuchElementException: Unable to locate element: //*[.='LOGIN']
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-G6QMAM9', ip: '10.0.0.2', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_333'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 118.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20230927232528, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 2740, moz:profile: C:\Users\ARTEMS~1\AppData\L..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 372ba6fe-e1c5-4e68-b878-4bb5e09c07a5
+*** Element info: {Using=xpath, value=//*[.='LOGIN']}
+2023-10-16 19:35:08,502 INFO M.WdListener [WdListener.java:30] Here is the path to screenshot with error>src/test/screenshots/screenshot-826.png
+2023-10-16 19:35:08,504 INFO M.NGListener [NGListener.java:15] Start of the test>>possitiveAddnewContactUserDTO
+2023-10-16 19:35:08,504 INFO t.testBase [testBase.java:31] test is finished possitiveAddnewContactUserDTO
+2023-10-16 19:35:08,504 INFO t.testBase [testBase.java:32] ============================================================================

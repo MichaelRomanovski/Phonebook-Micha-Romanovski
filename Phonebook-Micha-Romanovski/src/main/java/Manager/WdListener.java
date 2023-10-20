@@ -24,7 +24,7 @@ public class WdListener extends AbstractWebDriverEventListener
         logger.info(throwable.getMessage());
         logger.info(throwable.fillInStackTrace().toString());
         int i=(int)System.currentTimeMillis()/1000%3600;
-        String link="src/java/screenshots/screenshot-" + i + ".png";
+        String link="src/test/screenshots/screenshot-" + i + ".png";
         HelperBase helperBase=new HelperBase(driver);
         helperBase.takeScreenshot(link);
         logger.info("Here is the path to screenshot with error>" + link);

@@ -11,6 +11,7 @@
         <classes>
             <class name="tests.LogintTests"/>
             <class name="tests.addNewContact"/>
+            <class name="tests.RegistrationTests"/>
 
         </classes>
     </test>

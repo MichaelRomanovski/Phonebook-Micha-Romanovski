@@ -4,7 +4,6 @@
     <test name="Add_contact" >
         <classes>
             <class name="tests.addNewContact" />
-
         </classes>
     </test>
 

@@ -40,31 +40,23 @@ public class HelperBase
         public boolean isElementPresent (By locator)
         {
             return wd.findElements(locator).size() > 0;
-
         }
-
         public void type (By locator, String text)
         {
             WebElement element = wd.findElement(locator);
             element.click();
             element.clear();
             element.sendKeys(text);
-
         }
-
         public void click (By locator)
         {
-
             wd.findElement(locator).click();
-
         }
 
         public void takeScreenshot(String link)  {
     File file=((TakesScreenshot)wd).getScreenshotAs(OutputType.FILE);
     File screenshot=new File(link);
     try {
-
-
         Files.copy(file, screenshot);
     }catch (IOException e) {
         e.printStackTrace();

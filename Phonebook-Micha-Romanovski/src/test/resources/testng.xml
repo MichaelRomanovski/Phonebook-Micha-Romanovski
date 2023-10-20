@@ -3,6 +3,8 @@
 <suite name="Production" verbose="1" >
     <test name="smoke" >
         <classes>
+
+            <class name="tests.addNewContact" />
             <class name="tests.LogintTests" />
 
         </classes>
